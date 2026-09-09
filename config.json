@@ -1,0 +1,57 @@
+{
+  "method": "vulex",
+  "project": "torvalds/linux",
+  "schedule": {
+    "budget": 30,
+    "cap_queries": 18,
+    "sss_queries": 12,
+    "repeats": 3
+  },
+  "cap": {
+    "anchors_per_cwe": 12,
+    "candidate_pool_size": 1024,
+    "prior_weight": 0.3,
+    "repo_demand_count": 512
+  },
+  "sss": {
+    "lineage": "msp_pretrain",
+    "checkpoint": "inputs/models/stagedvulbert-msp.bin",
+    "codebert_model": "inputs/models/codebert-base",
+    "staged_source": "third_party/StagedVulBERT",
+    "prior_weight": 0.5,
+    "repo_demand_count": 512,
+    "topk": 5,
+    "content_window": 512,
+    "chunk_step": 512,
+    "segments": 4,
+    "snippet_model": "gpt-5.5"
+  },
+  "inputs": {
+    "linux": "inputs/linux",
+    "records": "inputs/records/linux_records_target_function.jsonl",
+    "visibility_split": "inputs/splits/visibility_split.json",
+    "memory_split": "inputs/splits/memory_split.json",
+    "cwe_source": "inputs/splits/cwe_order_source.json",
+    "repo_demand_source_files": "inputs/splits/repo_demand_source_files.json",
+    "vulnerability_memory": "inputs/memory/vulnerability.jsonl",
+    "ordinary_memory": "inputs/memory/ordinary.jsonl"
+  },
+  "generated": {
+    "cap_bank": "generated/cap_bank.json",
+    "embedding_cache": "generated/sss_embeddings.json",
+    "sss_bank": "generated/sss_bank.json",
+    "snippet_cache": "generated/snippet_cache",
+    "snippets": "generated/sss_snippets.json"
+  },
+  "runtime": {
+    "agent_model": "gpt-5.5",
+    "openai_api_base": "https://api.openai.com/v1",
+    "openclaw_memory_search": "bm25_fts",
+    "openclaw_served_memory_policy": "configured",
+    "workspace": "empty",
+    "memory_search_max_results": 4,
+    "agent_timeout_seconds": 600,
+    "docker_image": "ghcr.io/openclaw/openclaw@sha256:e2482a66682de6f540dcfd9921e410c23fd060dcd441382ff952247ee911a672",
+    "outputs": "outputs"
+  }
+}

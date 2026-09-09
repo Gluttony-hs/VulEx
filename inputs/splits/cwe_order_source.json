@@ -1,0 +1,602 @@
+[
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-20",
+    "phase": "sss",
+    "probe_index": 0,
+    "public_cwe_count": 98,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "net/bluetooth/rfcomm/sock.c::rfcomm_sk_data_ready"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-545"
+    ]
+  },
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-264",
+    "phase": "sss",
+    "probe_index": 1,
+    "public_cwe_count": 82,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "crypto/gcm.c::crypto_gcm_reqctx"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-821"
+    ]
+  },
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-119",
+    "phase": "sss",
+    "probe_index": 2,
+    "public_cwe_count": 46,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "arch/ia64/kernel/patch.c::get_imm64"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-1289"
+    ]
+  },
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-362",
+    "phase": "sss",
+    "probe_index": 3,
+    "public_cwe_count": 39,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "arch/x86/kernel/traps.c::cond_local_irq_enable"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-1433"
+    ]
+  },
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-476",
+    "phase": "sss",
+    "probe_index": 4,
+    "public_cwe_count": 37,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "lib/assoc_array.c::assoc_array_insert_into_terminal_node"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-1334"
+    ]
+  },
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-200",
+    "phase": "sss",
+    "probe_index": 5,
+    "public_cwe_count": 35,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "sound/core/timer.c::snd_timer_instance_new"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-1275"
+    ]
+  },
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-400",
+    "phase": "sss",
+    "probe_index": 6,
+    "public_cwe_count": 35,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "drivers/gpu/drm/amd/display/dc/dce120/dce120_resource.c::dce120_create_resource_pool"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-1616"
+    ]
+  },
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-399",
+    "phase": "sss",
+    "probe_index": 7,
+    "public_cwe_count": 29,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "arch/arm/kvm/arm.c::vcpu_pause"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-355"
+    ]
+  },
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-189",
+    "phase": "sss",
+    "probe_index": 8,
+    "public_cwe_count": 21,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "arch/powerpc/kernel/perf_event.c::perf_instruction_pointer"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-76"
+    ]
+  },
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-416",
+    "phase": "sss",
+    "probe_index": 9,
+    "public_cwe_count": 21,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "include/linux/mm.h::get_page"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-1490"
+    ]
+  },
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-310",
+    "phase": "sss",
+    "probe_index": 10,
+    "public_cwe_count": 13,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "crypto/ahash.c::crypto_ahash_report"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-280"
+    ]
+  },
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-125",
+    "phase": "sss",
+    "probe_index": 11,
+    "public_cwe_count": 11,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "drivers/hid/hid-core.c::hid_input_field"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-1118"
+    ]
+  },
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-787",
+    "phase": "sss",
+    "probe_index": 12,
+    "public_cwe_count": 10,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "drivers/md/dm-ioctl.c::list_devices"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-1685"
+    ]
+  },
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-17",
+    "phase": "sss",
+    "probe_index": 13,
+    "public_cwe_count": 8,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "fs/ext4/extents.c::ext4_zero_range"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-916"
+    ]
+  },
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-404",
+    "phase": "sss",
+    "probe_index": 14,
+    "public_cwe_count": 8,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "drivers/usb/serial/omninet.c::omninet_open"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-1264"
+    ]
+  },
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-19",
+    "phase": "sss",
+    "probe_index": 15,
+    "public_cwe_count": 7,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "arch/arm64/include/asm/pgtable.h::set_pte_at"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-1025"
+    ]
+  },
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-190",
+    "phase": "sss",
+    "probe_index": 16,
+    "public_cwe_count": 7,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "drivers/vfio/pci/vfio_pci.c::vfio_pci_ioctl"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-1105"
+    ]
+  },
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-284",
+    "phase": "sss",
+    "probe_index": 17,
+    "public_cwe_count": 6,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "arch/x86/kvm/emulate.c::x86_decode_insn"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-1109"
+    ]
+  },
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-415",
+    "phase": "sss",
+    "probe_index": 18,
+    "public_cwe_count": 5,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "drivers/pinctrl/pinctrl-amd.c::amd_gpio_direction_input"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-1392"
+    ]
+  },
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-285",
+    "phase": "sss",
+    "probe_index": 19,
+    "public_cwe_count": 4,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "fs/9p/acl.c::v9fs_xattr_set_acl"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-1063"
+    ]
+  },
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-120",
+    "phase": "sss",
+    "probe_index": 20,
+    "public_cwe_count": 3,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "drivers/net/wireless/marvell/mwifiex/join.c::mwifiex_cmd_802_11_ad_hoc_start"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-1678"
+    ]
+  },
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-665",
+    "phase": "sss",
+    "probe_index": 21,
+    "public_cwe_count": 3,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "arch/x86/kvm/x86.c::kvm_vcpu_ioctl_x86_get_debugregs"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-1794"
+    ]
+  },
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-254",
+    "phase": "sss",
+    "probe_index": 22,
+    "public_cwe_count": 2,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "arch/x86/kernel/cpu/bugs.c::is_skylake_era"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-1453"
+    ]
+  },
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-369",
+    "phase": "sss",
+    "probe_index": 23,
+    "public_cwe_count": 2,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "net/ipv4/igmp.c::igmp_heard_query"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-1756"
+    ]
+  },
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-763",
+    "phase": "sss",
+    "probe_index": 24,
+    "public_cwe_count": 2,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "arch/x86/include/asm/uaccess_64.h::raw_copy_from_user"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-1813"
+    ]
+  },
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-909",
+    "phase": "sss",
+    "probe_index": 25,
+    "public_cwe_count": 2,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "fs/nfs/dir.c::nfs_atomic_open"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-1703"
+    ]
+  },
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-191",
+    "phase": "sss",
+    "probe_index": 26,
+    "public_cwe_count": 1,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "drivers/usb/serial/io_ti.c::ti_vread_sync"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-1263"
+    ]
+  },
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-22",
+    "phase": "sss",
+    "probe_index": 27,
+    "public_cwe_count": 1,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "drivers/target/target_core_xcopy.c::target_xcopy_gen_naa_ieee"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-1677"
+    ]
+  },
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-255",
+    "phase": "sss",
+    "probe_index": 28,
+    "public_cwe_count": 1,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "security/keys/keyring.c::find_keyring_by_name"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-1429"
+    ]
+  },
+  {
+    "anchor_count": 0,
+    "anchor_source": "none",
+    "anchor_text": "",
+    "anchor_text_chars": 0,
+    "anchors": [],
+    "cwe": "CWE-287",
+    "phase": "sss",
+    "probe_index": 29,
+    "public_cwe_count": 1,
+    "source_record_ids": [],
+    "sss_payload_anchor_count": 1,
+    "sss_payload_anchor_limit": 1,
+    "sss_payload_anchors": [
+      "net/netlink/af_netlink.c::netlink_sendmsg"
+    ],
+    "sss_payload_source_record_ids": [
+      "linux-174"
+    ]
+  }
+]
